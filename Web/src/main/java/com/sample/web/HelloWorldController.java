@@ -1,0 +1,30 @@
+package com.sample.web;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+import com.sample.dao.TestService;
+
+@Controller
+@RequestMapping("/")
+public class HelloWorldController {
+
+	@Autowired
+	TestService testService;
+	@RequestMapping(method = RequestMethod.GET)
+	public String sayHello(ModelMap model) {
+		model.addAttribute("greeting", testService.checkService());
+		return "welcome";
+	}
+
+
+	@RequestMapping(value="/helloagain", method = RequestMethod.GET)
+	public String sayHelloAgain(ModelMap model) {
+		model.addAttribute("greeting", "Hello World Again, from Spring 4 MVC");
+		return "welcome";
+	}
+
+}
