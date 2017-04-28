@@ -1,2 +1,4 @@
+com\sample\dao\entity\TestEntity.class
+com\sample\dao\entity\TestRepository.class
 com\sample\dao\TestService.class
 com\sample\dao\TestServiceImpl.class
