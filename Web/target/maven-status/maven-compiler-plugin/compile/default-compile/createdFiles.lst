@@ -1,1 +1,3 @@
+com\sample\web\configuration\HelloWorldConfiguration.class
+com\sample\web\configuration\SecurityConfiguration.class
 com\sample\web\HelloWorldController.class

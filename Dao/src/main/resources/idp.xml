@@ -1,0 +1,171 @@
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"
+	entityID="https://zxidp.org/idp">
+	<md:IDPSSODescriptor WantAuthnRequestsSigned="1"
+		errorURL="https://zxidp.org/idp?o=E" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+		<md:KeyDescriptor use="encryption">
+			<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+				<ds:X509Data>
+					<ds:X509Certificate>MIIDTzCCArigAwIBAgIDEK7iMA0GCSqGSIb3DQEBBQUAME4xCzAJBgNVBAYTAlVT
+						MRAwDgYDVQQKEwdFcXVpZmF4MS0wKwYDVQQLEyRFcXVpZmF4IFNlY3VyZSBDZXJ0
+						aWZpY2F0ZSBBdXRob3JpdHkwHhcNMTAwNDE0MDUzMDAyWhcNMTMwNDE0MTI1ODM5
+						WjCB2TEpMCcGA1UEBRMgVHdxaFZRWXRMNVlMckZ3WU43THNPU1pMZjU1UzU4c2Ex
+						CzAJBgNVBAYTAlBUMRIwEAYDVQQKEwl6eGlkcC5vcmcxEzARBgNVBAsTCkdUOTgw
+						ODAxMzAxMTAvBgNVBAsTKFNlZSB3d3cucmFwaWRzc2wuY29tL3Jlc291cmNlcy9j
+						cHMgKGMpMTAxLzAtBgNVBAsTJkRvbWFpbiBDb250cm9sIFZhbGlkYXRlZCAtIFJh
+						cGlkU1NMKFIpMRIwEAYDVQQDEwl6eGlkcC5vcmcwgZ8wDQYJKoZIhvcNAQEBBQAD
+						gY0AMIGJAoGBAMejM2p43vpvMT7OB9bw4/xSO5j5jQEhhb34jDXyzeyGuSgNh0G2
+						/E44KQpq7KuqBUPSsx7cDFIUprX5RMB0edOOVtO+UuquQOBqY81vBH8XcTqrJhCj
+						7hpxvqOuBVvk1eiV7hNYTbarchu3nvmVrLHxULic9pIeVk26ADASUSfFAgMBAAGj
+						ga4wgaswDgYDVR0PAQH/BAQDAgTwMB0GA1UdDgQWBBT5hhmI3DF4R7pigER99deh
+						UJK4xDA6BgNVHR8EMzAxMC+gLaArhilodHRwOi8vY3JsLmdlb3RydXN0LmNvbS9j
+						cmxzL3NlY3VyZWNhLmNybDAfBgNVHSMEGDAWgBRI5mj5K9KylddH2CMgEE8zmJCf
+						1DAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDQYJKoZIhvcNAQEFBQAD
+						gYEAOXexavUQ5qG5N8ee4KFxJLjz+y6OeojV2NapMZQOpF83NvZMYWKUfAOWjThy
+						m4LdrcH4+DbmWlW6MqhlxPfcGpVlboGOkeaLgk1UU73ownVafK2ljc2Nspj/RFh8
+						potxYrFphsSW5h7aMf2J0I3bwXGZEnjj2sJF7+apo7PH0J4=
+					</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:KeyDescriptor use="signing">
+			<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+				<ds:X509Data>
+					<ds:X509Certificate>MIIDTzCCArigAwIBAgIDEK7iMA0GCSqGSIb3DQEBBQUAME4xCzAJBgNVBAYTAlVT
+						MRAwDgYDVQQKEwdFcXVpZmF4MS0wKwYDVQQLEyRFcXVpZmF4IFNlY3VyZSBDZXJ0
+						aWZpY2F0ZSBBdXRob3JpdHkwHhcNMTAwNDE0MDUzMDAyWhcNMTMwNDE0MTI1ODM5
+						WjCB2TEpMCcGA1UEBRMgVHdxaFZRWXRMNVlMckZ3WU43THNPU1pMZjU1UzU4c2Ex
+						CzAJBgNVBAYTAlBUMRIwEAYDVQQKEwl6eGlkcC5vcmcxEzARBgNVBAsTCkdUOTgw
+						ODAxMzAxMTAvBgNVBAsTKFNlZSB3d3cucmFwaWRzc2wuY29tL3Jlc291cmNlcy9j
+						cHMgKGMpMTAxLzAtBgNVBAsTJkRvbWFpbiBDb250cm9sIFZhbGlkYXRlZCAtIFJh
+						cGlkU1NMKFIpMRIwEAYDVQQDEwl6eGlkcC5vcmcwgZ8wDQYJKoZIhvcNAQEBBQAD
+						gY0AMIGJAoGBAMejM2p43vpvMT7OB9bw4/xSO5j5jQEhhb34jDXyzeyGuSgNh0G2
+						/E44KQpq7KuqBUPSsx7cDFIUprX5RMB0edOOVtO+UuquQOBqY81vBH8XcTqrJhCj
+						7hpxvqOuBVvk1eiV7hNYTbarchu3nvmVrLHxULic9pIeVk26ADASUSfFAgMBAAGj
+						ga4wgaswDgYDVR0PAQH/BAQDAgTwMB0GA1UdDgQWBBT5hhmI3DF4R7pigER99deh
+						UJK4xDA6BgNVHR8EMzAxMC+gLaArhilodHRwOi8vY3JsLmdlb3RydXN0LmNvbS9j
+						cmxzL3NlY3VyZWNhLmNybDAfBgNVHSMEGDAWgBRI5mj5K9KylddH2CMgEE8zmJCf
+						1DAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDQYJKoZIhvcNAQEFBQAD
+						gYEAOXexavUQ5qG5N8ee4KFxJLjz+y6OeojV2NapMZQOpF83NvZMYWKUfAOWjThy
+						m4LdrcH4+DbmWlW6MqhlxPfcGpVlboGOkeaLgk1UU73ownVafK2ljc2Nspj/RFh8
+						potxYrFphsSW5h7aMf2J0I3bwXGZEnjj2sJF7+apo7PH0J4=
+					</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:SingleLogoutService
+			Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
+			Location="https://zxidp.org/idp?o=Q" ResponseLocation="https://zxidp.org/idp?o=Q" />
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP"
+			Location="https://zxidp.org/idp?o=S" />
+		<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent
+		</md:NameIDFormat>
+		<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient
+		</md:NameIDFormat>
+		<md:SingleSignOnService
+			Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
+			Location="https://zxidp.org/idp?o=F" />
+		<md:SingleSignOnService Binding="urn:zxid:OAUTH:2.0:bindings:HTTP-Redirect"
+			Location="https://zxidp.org/idp?o=F" />
+	</md:IDPSSODescriptor>
+	<md:SPSSODescriptor AuthnRequestsSigned="1"
+		WantAssertionsSigned="1" errorURL="https://zxidp.org/idp?o=E"
+		protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+		<md:KeyDescriptor use="encryption">
+			<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+				<ds:X509Data>
+					<ds:X509Certificate>MIIDTzCCArigAwIBAgIDEK7iMA0GCSqGSIb3DQEBBQUAME4xCzAJBgNVBAYTAlVT
+						MRAwDgYDVQQKEwdFcXVpZmF4MS0wKwYDVQQLEyRFcXVpZmF4IFNlY3VyZSBDZXJ0
+						aWZpY2F0ZSBBdXRob3JpdHkwHhcNMTAwNDE0MDUzMDAyWhcNMTMwNDE0MTI1ODM5
+						WjCB2TEpMCcGA1UEBRMgVHdxaFZRWXRMNVlMckZ3WU43THNPU1pMZjU1UzU4c2Ex
+						CzAJBgNVBAYTAlBUMRIwEAYDVQQKEwl6eGlkcC5vcmcxEzARBgNVBAsTCkdUOTgw
+						ODAxMzAxMTAvBgNVBAsTKFNlZSB3d3cucmFwaWRzc2wuY29tL3Jlc291cmNlcy9j
+						cHMgKGMpMTAxLzAtBgNVBAsTJkRvbWFpbiBDb250cm9sIFZhbGlkYXRlZCAtIFJh
+						cGlkU1NMKFIpMRIwEAYDVQQDEwl6eGlkcC5vcmcwgZ8wDQYJKoZIhvcNAQEBBQAD
+						gY0AMIGJAoGBAMejM2p43vpvMT7OB9bw4/xSO5j5jQEhhb34jDXyzeyGuSgNh0G2
+						/E44KQpq7KuqBUPSsx7cDFIUprX5RMB0edOOVtO+UuquQOBqY81vBH8XcTqrJhCj
+						7hpxvqOuBVvk1eiV7hNYTbarchu3nvmVrLHxULic9pIeVk26ADASUSfFAgMBAAGj
+						ga4wgaswDgYDVR0PAQH/BAQDAgTwMB0GA1UdDgQWBBT5hhmI3DF4R7pigER99deh
+						UJK4xDA6BgNVHR8EMzAxMC+gLaArhilodHRwOi8vY3JsLmdlb3RydXN0LmNvbS9j
+						cmxzL3NlY3VyZWNhLmNybDAfBgNVHSMEGDAWgBRI5mj5K9KylddH2CMgEE8zmJCf
+						1DAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDQYJKoZIhvcNAQEFBQAD
+						gYEAOXexavUQ5qG5N8ee4KFxJLjz+y6OeojV2NapMZQOpF83NvZMYWKUfAOWjThy
+						m4LdrcH4+DbmWlW6MqhlxPfcGpVlboGOkeaLgk1UU73ownVafK2ljc2Nspj/RFh8
+						potxYrFphsSW5h7aMf2J0I3bwXGZEnjj2sJF7+apo7PH0J4=
+					</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:KeyDescriptor use="signing">
+			<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+				<ds:X509Data>
+					<ds:X509Certificate>MIIDTzCCArigAwIBAgIDEK7iMA0GCSqGSIb3DQEBBQUAME4xCzAJBgNVBAYTAlVT
+						MRAwDgYDVQQKEwdFcXVpZmF4MS0wKwYDVQQLEyRFcXVpZmF4IFNlY3VyZSBDZXJ0
+						aWZpY2F0ZSBBdXRob3JpdHkwHhcNMTAwNDE0MDUzMDAyWhcNMTMwNDE0MTI1ODM5
+						WjCB2TEpMCcGA1UEBRMgVHdxaFZRWXRMNVlMckZ3WU43THNPU1pMZjU1UzU4c2Ex
+						CzAJBgNVBAYTAlBUMRIwEAYDVQQKEwl6eGlkcC5vcmcxEzARBgNVBAsTCkdUOTgw
+						ODAxMzAxMTAvBgNVBAsTKFNlZSB3d3cucmFwaWRzc2wuY29tL3Jlc291cmNlcy9j
+						cHMgKGMpMTAxLzAtBgNVBAsTJkRvbWFpbiBDb250cm9sIFZhbGlkYXRlZCAtIFJh
+						cGlkU1NMKFIpMRIwEAYDVQQDEwl6eGlkcC5vcmcwgZ8wDQYJKoZIhvcNAQEBBQAD
+						gY0AMIGJAoGBAMejM2p43vpvMT7OB9bw4/xSO5j5jQEhhb34jDXyzeyGuSgNh0G2
+						/E44KQpq7KuqBUPSsx7cDFIUprX5RMB0edOOVtO+UuquQOBqY81vBH8XcTqrJhCj
+						7hpxvqOuBVvk1eiV7hNYTbarchu3nvmVrLHxULic9pIeVk26ADASUSfFAgMBAAGj
+						ga4wgaswDgYDVR0PAQH/BAQDAgTwMB0GA1UdDgQWBBT5hhmI3DF4R7pigER99deh
+						UJK4xDA6BgNVHR8EMzAxMC+gLaArhilodHRwOi8vY3JsLmdlb3RydXN0LmNvbS9j
+						cmxzL3NlY3VyZWNhLmNybDAfBgNVHSMEGDAWgBRI5mj5K9KylddH2CMgEE8zmJCf
+						1DAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDQYJKoZIhvcNAQEFBQAD
+						gYEAOXexavUQ5qG5N8ee4KFxJLjz+y6OeojV2NapMZQOpF83NvZMYWKUfAOWjThy
+						m4LdrcH4+DbmWlW6MqhlxPfcGpVlboGOkeaLgk1UU73ownVafK2ljc2Nspj/RFh8
+						potxYrFphsSW5h7aMf2J0I3bwXGZEnjj2sJF7+apo7PH0J4=
+					</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:SingleLogoutService
+			Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
+			Location="https://zxidp.org/idp?o=Q" ResponseLocation="https://zxidp.org/idp?o=Q" />
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP"
+			Location="https://zxidp.org/idp?o=S" />
+		<md:ManageNameIDService
+			Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
+			Location="https://zxidp.org/idp?o=Q" ResponseLocation="https://zxidp.org/idp?o=Q" />
+		<md:ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP"
+			Location="https://zxidp.org/idp?o=S" />
+		<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent
+		</md:NameIDFormat>
+		<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient
+		</md:NameIDFormat>
+		<md:AssertionConsumerService
+			Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact"
+			Location="https://zxidp.org/idp" index="1" />
+		<md:AssertionConsumerService
+			Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://zxidp.org/idp?o=P"
+			index="2" />
+		<md:AssertionConsumerService
+			Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://zxidp.org/idp?o=S"
+			index="3" />
+		<md:AssertionConsumerService
+			Binding="urn:oasis:names:tc:SAML:2.0:bindings:PAOS" Location="https://zxidp.org/idp?o=P"
+			index="4" />
+		<md:AssertionConsumerService
+			Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign"
+			Location="https://zxidp.org/idp?o=P" index="5" />
+		<md:AssertionConsumerService
+			Binding="urn:zxid:OAUTH:2.0:bindings:HTTP-Redirect" Location="https://zxidp.org/idp?o=O"
+			index="6" />
+	</md:SPSSODescriptor>
+	<md:Organization>
+		<md:OrganizationName xml:lang="en">ZXIDP Identity
+			Provider</md:OrganizationName>
+		<md:OrganizationDisplayName xml:lang="en">ZXIDP
+			- Free IdP</md:OrganizationDisplayName>
+		<md:OrganizationURL xml:lang="en">https://zxidp.org/zxidp-saml2_icon_150x60.png
+		</md:OrganizationURL>
+	</md:Organization>
+	<md:ContactPerson contactType="administrative">
+		<md:Company>ZXIDP Identity Provider</md:Company>
+		<md:SurName>Sampo Kellomaki</md:SurName>
+		<md:EmailAddress>zxidp@zxidp.org</md:EmailAddress>
+	</md:ContactPerson>
+	<md:AdditionalMetadataLocation namespace="#md-authority">
+		https://zxidp.org/idp?o=b&c=</md:AdditionalMetadataLocation>
+</md:EntityDescriptor>
